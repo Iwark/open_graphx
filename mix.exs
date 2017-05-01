@@ -41,7 +41,7 @@ defmodule OpenGraphx.Mixfile do
   defp deps do
     [
       {:floki, "~> 0.8"},
-      {:httpoison, "~> 0.8.0"},
+      {:httpoison, "~> 0.11"},
       {:ex_doc, "~> 0.8.0", only: :dev},
       {:earmark, ">= 0.0.0", only: :dev}
     ]
